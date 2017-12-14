@@ -199,7 +199,7 @@ $(window).load(function() {
               </td>
             </tr>
           </table>
-        </div> -->
+       <!--  </div> --> -->
 
         <div id="price" class="center">
           <hr align="middle" width="50%"> 
