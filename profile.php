@@ -171,7 +171,7 @@ $(window).load(function() {
 
       <!--   <div id="icons"  onclick="showNotice(this.id)" style="overflow: hidden;">
           <table> <!-- food choices -->
-            <hr align="middle" width="50%">   
+           <!--  <hr align="middle" width="50%">   
             <tr>
               <td style="width: 25%" id="iconsnada">
                 <input onclick="tellme(this.id)" type="radio" name="food" id="nothing" class="input-hidden" value="0" style="width:100%" />
@@ -198,19 +198,19 @@ $(window).load(function() {
                 </label>
               </td>
             </tr>
-          </table>
+          </table> -->
        <!--  </div> --> -->
 
-        <div id="price" class="center">
+       <!--  <div id="price" class="center">
           <hr align="middle" width="50%"> 
           <p>1 Meal = 100 RPS</p>
         </div>
-      </div>
+      </div> -->
 
-      <div id="pay" class="center">
+     <!--  <div id="pay" class="center">
           <input oninput ="Payment(this.id)" type="range" min="1" max="100" value="0" class="slider" id="myRange" style="display: none">
           <p><span> Slide to confirm</span> <br><span id="amount">0</span> Rps</p>
-      </div>
+      </div> -->
 
     </div>
   </div>
