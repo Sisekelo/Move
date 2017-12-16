@@ -28,7 +28,7 @@ else { // User exists
         $_SESSION['room'] = $user['RoomNumber'];
         $_SESSION['Active'] = $user['Active'];
         $_SESSION['points'] = $user['Points'];
-        $_SESSION['message'] = "Let's eat, fam :)";
+        $_SESSION['message'] = "Let's eat fam :)";
         // This is how we'll know the user is logged in
         $_SESSION['logged_in'] = true;
         header("location: profile.php");

@@ -59,7 +59,7 @@ else { // Email doesnt already exist in a database, proceed...
         $_SESSION['message'] =
                  "Confirmation link has been sent to $number, please verify
                  your account by clicking on the link in the message!";
-                 $_SESSION['superURL'] = 'http://ouideliver.xyz/verify.php?email='.$email;
+                 $_SESSION['superURL'] = 'http://ouideliver.xyz/Typeform/verify.php?email='.$email;
 
                  //send a text message
 
