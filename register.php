@@ -58,7 +58,7 @@ else { // Email doesnt already exist in a database, proceed...
         $_SESSION['logged_in'] = true; // So we know the user has logged in
         $_SESSION['message'] =
                  "Confirmation link has been sent to $number, please verify
-                 your account by clicking on the link in the message!";
+                 your account by clicking on the link in the message! \n Please give it 5 min max for the sms to arrive";
                  $_SESSION['superURL'] = 'http://ouideliver.xyz/Typeform/verify.php?email='.$email;
 
                  //send a text message
