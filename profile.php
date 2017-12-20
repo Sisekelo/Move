@@ -99,7 +99,7 @@ $(window).load(function() {
 
             <hr style="margin: 2%">
 
-            <p style="color: white"><a href="">  Past orders </a></p><br>
+            <p style="color: white"><a href="" style="text-decoration: none">  Past orders </a></p><br>
 
            
           </div>
