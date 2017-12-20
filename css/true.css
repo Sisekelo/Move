@@ -426,3 +426,7 @@ input[type=checkbox]+label{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+.sidebar p{
+  margin: 0;
+}

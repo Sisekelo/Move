@@ -82,7 +82,7 @@ $(window).load(function() {
           <div class="cancel" onclick="cancel(this.className)">✕</div>
 
           <div id="picInfo" style="height: 20%">
-            <img style="height: 10%" src="<?=$picURL?>">
+            <img style="height: 50%" src="<?=$picURL?>"><br>
             <p style="display: inline-block;">Hi,<?= $first_name ?></p><br>
             <p style="display: inline-block;"><?= $email ?></p>
           </div>
