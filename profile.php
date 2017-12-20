@@ -85,7 +85,7 @@ $(window).load(function() {
             <img style="height: 50%;float: left" src="<?=$picURL?>"><br>
             <p style="display: inline-block">Hi,<?= $first_name ?></p><br>
             <p style="display: inline-block"><?= $email ?></p>
-          </div><br>
+          </div>
 
           <div id="Help" style="height:80%">
          
@@ -95,7 +95,8 @@ $(window).load(function() {
             
             <div style="overflow: auto" 
                 data-description="Hey there, register for Oui Deliver and get food delivered to your door step"
-                data-url="https://ouideliver.xyz/index.php?refer=<?= $email ?>" class="sharethis-inline-share-buttons"></div>
+                data-url="https://ouideliver.xyz/index.php?refer=<?= $email ?>" class="sharethis-inline-share-buttons">
+            </div>
 
            
           </div>
