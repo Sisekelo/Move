@@ -84,7 +84,6 @@ $(window).load(function() {
           <div id="picInfo" style="height: 20%">
             <img style="height: 50%;float: left" src="<?=$picURL?>"><br>
             <p style="display: inline-block">Hi,<?= $first_name ?></p><br>
-            <p style="display: inline-block"><?= $email ?></p>
           </div>
 
           <div id="Help" style="height:80%">

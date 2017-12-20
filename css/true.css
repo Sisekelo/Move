@@ -429,5 +429,5 @@ input[type=checkbox]+label{
 
 .sidebar p{
   margin: 0;
-  float: left;
+  text-align:left;
 }
