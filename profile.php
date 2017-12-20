@@ -81,7 +81,7 @@ $(window).load(function() {
          <div class="sidebar" style="height: 100vh;z-index: 10000">
           <div class="cancel" onclick="cancel(this.className)">✕</div>
 
-          <div id="picInfo" style="height: 20%;float: left">
+          <div id="picInfo" style="height: 20%">
             <img style="height: 50%" src="<?=$picURL?>"><br>
             <p style="display: inline-block;">Hi,<?= $first_name ?></p><br>
             <p style="display: inline-block;"><?= $email ?></p>
@@ -90,8 +90,8 @@ $(window).load(function() {
           <div id="Help" style="height: 45%">
          
             <p>Current points: <?= $points ?> </p>
-            <p>10 Points = 1 free meal.</p>
-            <p>Share with your friends and get 2 Points once they buy their first meal</p>
+            <p>10 points = 50Rps off your meal </p>
+            <p>Share with your friends and get 1 Point once they buy their first meal</p>
             
             <div style="overflow: auto" 
                 data-description="Hey there, register for Oui Deliver and get food delivered to your door step"
