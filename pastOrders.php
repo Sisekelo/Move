@@ -96,7 +96,7 @@
 				<?php
 					include('db.php');
 					/*$result = mysql_query("SELECT * FROM reservation ORDER BY firstname ASC");*/
-					$result = $mysqli ->query("SELECT * FROM  Orders2 WHERE Buyer_Number='$Number' Date ASC");
+					$result = $mysqli ->query("SELECT * FROM  Orders2 WHERE Buyer_Number='+$Number' order by Date ASC");
 					while($row = mysqli_fetch_array($result))
 						{
 							echo '<tr>';
