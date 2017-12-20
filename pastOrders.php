@@ -1,5 +1,6 @@
 <?php
     	$Number= $_GET["number"];
+    	$NumberPlus = '+'.$Number;
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -96,7 +97,7 @@
 				<?php
 					include('db.php');
 					/*$result = mysql_query("SELECT * FROM reservation ORDER BY firstname ASC");*/
-					$result = $mysqli ->query("SELECT * FROM  Orders2 WHERE Buyer_Number='+$Number' order by Date ASC");
+					$result = $mysqli ->query("SELECT * FROM  Orders2 WHERE Buyer_Number='$NumberPlus' order by Date ASC");
 					while($row = mysqli_fetch_array($result))
 						{
 							echo '<tr>';
