@@ -97,9 +97,9 @@ $(window).load(function() {
                 data-url="https://ouideliver.xyz/index.php?refer=<?= $email ?>" class="sharethis-inline-share-buttons">
             </div>
 
-            <hr style="margin: 2%">
+            <hr style="margin: 2%;margin-left: 2%">
 
-            <p style="color: white"><a href="" style="text-decoration: none">  Past orders </a></p><br>
+            <p style="color: white"><a href="pastOrders.php?number=<?=$number?>" style="text-decoration: none">  Past orders </a></p><br>
 
            
           </div>

@@ -431,3 +431,7 @@ input[type=checkbox]+label{
   margin: 0;
   text-align:left;
 }
+
+a:visited {
+    text-decoration: none;
+}
