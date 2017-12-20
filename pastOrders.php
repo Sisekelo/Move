@@ -37,7 +37,7 @@
 <!-- HIDDEN COLOR CHANGER -->      
       <div style="position:relative;">
   	<!--LOGO-->
-	<div class="grid_8" id="logo">GPST <?=$Number?></div>
+	<div class="grid_8" id="logo">GPST <?=$NumberPlus?></div>
     <div class="grid_8">
 <!-- USER TOOLS START -->
       <div id="user_tools"><span><a href="../index.php">Logout</a></span></div>
