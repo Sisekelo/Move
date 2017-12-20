@@ -82,20 +82,24 @@ $(window).load(function() {
           <div class="cancel" onclick="cancel(this.className)">✕</div>
 
           <div id="picInfo" style="height: 20%">
-            <img style="height: 50%;float: left" src="<?=$picURL?>"><br>
+            <img style="height: 50%" src="<?=$picURL?>"><br>
             <p style="display: inline-block">Hi,<?= $first_name ?></p><br>
           </div>
 
           <div id="Help" style="height:80%">
          
-            <p>Current points: <?= $points ?> </p><br>
-            <p>10 points = 50Rps off your meal </p><br>
-            <p>Share with your friends and get 1 Point once they buy their first meal</p><br>
+            <p style="margin-left: 2%">Current points: <?= $points ?> </p><br>
+            <p style="margin-left: 2%">10 points = 50Rps off your meal </p><br>
+            <p style="margin-left: 2%">Share with your friends and get 1 Point once they buy their first meal</p><br>
             
             <div style="overflow: auto" 
                 data-description="Hey there, register for Oui Deliver and get food delivered to your door step"
                 data-url="https://ouideliver.xyz/index.php?refer=<?= $email ?>" class="sharethis-inline-share-buttons">
             </div>
+
+            <hr>
+
+            <p style="margin-left: 2%">Past orders </p><br>
 
            
           </div>
