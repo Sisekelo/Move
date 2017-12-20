@@ -81,8 +81,9 @@ $(window).load(function() {
          <div class="sidebar" style="height: 100vh;z-index: 10000">
           <div class="cancel" onclick="cancel(this.className)">✕</div>
 
-          <div id="picInfo" style="height: 15%">
-            <p style="display: inline-block;">Hi,<?= $first_name ?></p>
+          <div id="picInfo" style="height: 20%">
+            <img style="height: 10%" src="<?=$picURL?>">
+            <p style="display: inline-block;">Hi,<?= $first_name ?></p><br>
             <p style="display: inline-block;"><?= $email ?></p>
           </div>
 
