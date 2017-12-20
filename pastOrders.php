@@ -1,5 +1,6 @@
 <?php
     	$Number= $_GET["number"];
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="https://www.w3.org/1999/xhtml">
@@ -35,7 +36,7 @@
 <!-- HIDDEN COLOR CHANGER -->      
       <div style="position:relative;">
   	<!--LOGO-->
-	<div class="grid_8" id="logo">GPST Administration</div>
+	<div class="grid_8" id="logo">GPST <?=$Number?></div>
     <div class="grid_8">
 <!-- USER TOOLS START -->
       <div id="user_tools"><span><a href="../index.php">Logout</a></span></div>
@@ -59,7 +60,7 @@
     <div class="grid_16" id="content">
     <!--  TITLE START  --> 
     <div class="grid_9">
-    <h1 class="dashboard">Dashboard User = <?= $Vendor ?></h1>
+
     </div>
     <div class="clear">
     </div>
