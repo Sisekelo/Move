@@ -98,8 +98,8 @@ $(window).load(function() {
             </div>
 
             <hr style="margin: 2%">
-            
-            <button style="margin-left: 2%">Past orders </button><br>
+
+            <p style="color: white"><a href="">  Past orders </a></p><br>
 
            
           </div>
