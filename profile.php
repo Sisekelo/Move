@@ -87,7 +87,7 @@ $(window).load(function() {
             <p style="display: inline-block"><?= $email ?></p>
           </div><br>
 
-          <div id="Help" style="height: 80%">
+          <div id="Help" style="height:80%">
          
             <p>Current points: <?= $points ?> </p><br>
             <p>10 points = 50Rps off your meal </p><br>
@@ -96,9 +96,11 @@ $(window).load(function() {
             <div style="overflow: auto" 
                 data-description="Hey there, register for Oui Deliver and get food delivered to your door step"
                 data-url="https://ouideliver.xyz/index.php?refer=<?= $email ?>" class="sharethis-inline-share-buttons"></div>
+
+           
           </div>
 
-
+        </div>
  
 
         <div id="Messages1" class="center">
